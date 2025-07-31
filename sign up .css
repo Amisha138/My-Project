@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: 'Segoe UI', Tahoma,
+        Geneva, Verdana, sans-serif;
+}
+/* Styling the form input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    font-size: 10px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+}
+label {
+    font-size: 15px;
+}
+input[type=Address] ;focus,
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+/* Style the Sign Up button */
+button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0056b3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+/* To change opacity of button upon hovering */
+button:hover {
+    opacity: 1;
+}
+.formContainer {
+    padding: 16px;
+}
+.formContainer p {
+    font-size: 28px;
+}
+#check {
+    margin-bottom: 15px;
+}
